@@ -1,7 +1,7 @@
 ---
 - name: add virtualbox apt key
   sudo: yes
-  action: apt_key url=http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc state=present
+  action: apt_key url=http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc state=present
   tags: virtualbox
 
 - name: add virtualbox repository
